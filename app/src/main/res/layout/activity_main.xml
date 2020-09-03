@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etKolomPertama"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Masukan bilangan pertama"
+        android:inputType="number"/>
+
+    <EditText
+        android:layout_below="@+id/etKolomPertama"
+        android:id="@+id/etKolomKedua"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Masukan bilangan kedua"
+        android:inputType="number"/>
+
+    <Button
+        android:layout_below="@id/etKolomKedua"
+        android:id="@+id/btnPertambahan"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Menghitung"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>
